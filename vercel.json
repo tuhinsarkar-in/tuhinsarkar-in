@@ -4,8 +4,8 @@
 
   "redirects": [
     { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/www/(.*)", "destination": "/$1", "permanent": true },
-    { "source": "/old-blog/(.*)", "destination": "/blog/$1", "permanent": true }
+    { "source": "/www/:path*", "destination": "/:path*", "permanent": true },
+    { "source": "/old-blog/:path*", "destination": "/blog/:path*", "permanent": true }
   ],
 
   "rewrites": [
@@ -15,25 +15,25 @@
 
   "headers": [
     {
-      "source": "/(.*)\\.(js|css)",
+      "source": "/:all*(js|css)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.(woff2|woff|ttf|otf)",
+      "source": "/:all*(woff2|woff|ttf|otf)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.(png|jpg|jpeg|gif|svg|webp|avif|ico)",
+      "source": "/:all*(png|jpg|jpeg|gif|svg|webp|avif|ico)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
-      "source": "/(.*)\\.(html)",
+      "source": "/:all*.html",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" },
         { "key": "X-Robots-Tag", "value": "all" },
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "source": "/(.*)",
+      "source": "/:all*",
       "headers": [
         { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
