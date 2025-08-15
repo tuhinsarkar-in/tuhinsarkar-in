@@ -67,8 +67,5 @@
     "formats": ["image/avif", "image/webp"]
   },
 
-  "i18n": {
-    "locales": ["en", "es", "fr", "de", "zh", "hi", "ar"],
-    "defaultLocale": "en"
-  }
+ 
 }
