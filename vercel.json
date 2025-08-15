@@ -65,5 +65,5 @@
 
   "images": {
     "formats": ["image/avif", "image/webp"]
-  },
-
+  }
+}
