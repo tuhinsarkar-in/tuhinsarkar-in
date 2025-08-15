@@ -1,0 +1,310 @@
+/* Dark Mode Fixes for Tuhin Sarkar's Website */
+
+/* CSS Variables for Portfolio Cards */
+:root {
+  /* Publication and Public Speaking Cards */
+  --pub-bg: #fffbe6;
+  --pub-card-bg: #fff9c4;
+  --pub-card-border: #FFD700;
+  --pub-card-shadow: 0 8px 32px 0 rgba(191,161,0,0.18), 0 2px 8px 0 rgba(0,0,0,0.10);
+  --pub-title: #142A52;
+  --pub-meta: #666;
+  --pub-desc: #333;
+  
+  /* TKS Banner */
+  --tks-bg: #fffbe6;
+  --tks-white: #ffffff;
+  --tks-gold: #FFD700;
+  --tks-gold-light: #FFF9C4;
+  --tks-text: #142A52;
+  --tks-text-muted: #666;
+  --tks-shadow: 0 8px 32px 0 rgba(191,161,0,0.18), 0 2px 8px 0 rgba(0,0,0,0.10);
+}
+
+/* Dark Mode Variables */
+html[data-theme="dark"] {
+  /* Publication and Public Speaking Cards */
+  --pub-bg: #1a1a1a;
+  --pub-card-bg: #2a2a2a;
+  --pub-card-border: #FFD700;
+  --pub-card-shadow: 0 8px 32px 0 rgba(255,215,0,0.15), 0 2px 8px 0 rgba(0,0,0,0.20);
+  --pub-title: #ffffff;
+  --pub-meta: #cccccc;
+  --pub-desc: #e0e0e0;
+  
+  /* TKS Banner */
+  --tks-bg: #1a1a1a;
+  --tks-white: #2a2a2a;
+  --tks-gold: #FFD700;
+  --tks-gold-light: #FFF9C4;
+  --tks-text: #ffffff;
+  --tks-text-muted: #cccccc;
+  --tks-shadow: 0 8px 32px 0 rgba(255,215,0,0.15), 0 2px 8px 0 rgba(0,0,0,0.20);
+}
+
+/* Fix footer dark mode */
+html[data-theme="dark"] .page__footer {
+    background-color: var(--global-footer-bg-color) !important;
+    color: var(--global-text-color-light) !important;
+    border-top-color: var(--global-dark-border-color) !important;
+}
+
+html[data-theme="dark"] .page__footer footer {
+    background-color: var(--global-footer-bg-color) !important;
+}
+
+html[data-theme="dark"] .page__footer a {
+    color: var(--global-text-color-light) !important;
+}
+
+html[data-theme="dark"] .page__footer .fas,
+html[data-theme="dark"] .page__footer .fab,
+html[data-theme="dark"] .page__footer .far,
+html[data-theme="dark"] .page__footer .fal {
+    color: var(--global-text-color-light) !important;
+}
+
+/* Fix text selection for dark mode */
+html[data-theme="dark"] ::selection {
+    color: #000000 !important;
+    background: #ffffff !important;
+}
+
+html[data-theme="dark"] ::-moz-selection {
+    color: #000000 !important;
+    background: #ffffff !important;
+}
+
+/* Light mode text selection (keep existing) */
+html:not([data-theme="dark"]) ::selection {
+    color: #ffffff !important;
+    background: #000000 !important;
+}
+
+html:not([data-theme="dark"]) ::-moz-selection {
+    color: #ffffff !important;
+    background: #000000 !important;
+}
+
+/* Ensure footer text is visible in both modes */
+.page__footer-copyright {
+    color: inherit !important;
+}
+
+.page__footer-follow {
+    color: inherit !important;
+}
+
+/* Fix any hardcoded footer colors */
+.page__footer {
+    background-color: var(--global-footer-bg-color) !important;
+    color: var(--global-text-color-light) !important;
+}
+
+/* Ensure social icons in footer are visible */
+.page__footer .social-icons a {
+    color: inherit !important;
+}
+
+/* Fix footer border color */
+.page__footer {
+    border-top-color: var(--global-dark-border-color) !important;
+}
+
+/* Fix Public Speaking Cards Dark Mode */
+html[data-theme="dark"] .publicspeaking-card .card-content {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%) !important;
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .publicspeaking-card .card-title {
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .publicspeaking-card .card-meta {
+    color: #cccccc !important;
+}
+
+html[data-theme="dark"] .publicspeaking-card .card-desc {
+    color: #e0e0e0 !important;
+}
+
+html[data-theme="dark"] .publicspeaking-card span {
+    color: #e0e0e0 !important;
+}
+
+/* Fix Small Websites and Small-Scale Projects Cards */
+/* Light mode card styling */
+.card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+}
+
+.card .content {
+    padding: 1.5em;
+    background: #ffffff;
+}
+
+.card .title {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #142A52;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.card .action {
+    color: #FFD700;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+.card span {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.card img.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Dark mode card styling */
+html[data-theme="dark"] .card {
+    background: #2a2a2a !important;
+    border-color: #444 !important;
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .card .content {
+    background: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .card .title {
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .card .action {
+    color: #FFD700 !important;
+}
+
+html[data-theme="dark"] .card span {
+    color: #e0e0e0 !important;
+}
+
+html[data-theme="dark"] .card:hover {
+    background: #333 !important;
+    border-color: #FFD700 !important;
+    box-shadow: 0 8px 32px 0 rgba(255,215,0,0.2) !important;
+}
+
+/* Fix Certifications Section Layout */
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 2em;
+}
+
+.certifications-container .card {
+    width: 300px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--global-bg-color);
+    transition: transform 0.2s ease-in-out;
+}
+
+.certifications-container .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+}
+
+.certifications-container .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Dark mode for certifications */
+html[data-theme="dark"] .certifications-container .card {
+    background: #2a2a2a !important;
+    border-color: #444 !important;
+}
+
+/* Fix main content area for certifications */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 2em;
+}
+
+.main-content .archive {
+    margin-bottom: 2em;
+}
+
+.main-content .archive p {
+    color: var(--global-text-color);
+    margin-bottom: 1.5em;
+}
+
+/* Ensure proper spacing and layout */
+.archive {
+    margin-bottom: 2em;
+}
+
+.archive h1.page__title {
+    margin-bottom: 1em;
+    color: var(--global-text-color);
+}
+
+/* Fix any z-index issues */
+.publicspeaking-card,
+.publication-card,
+.card {
+    z-index: 1;
+}
+
+/* Ensure proper contrast in dark mode */
+html[data-theme="dark"] .archive h1.page__title {
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .main-content .archive p {
+    color: #e0e0e0 !important;
+}
+
+/* Fix iframe styling in dark mode */
+html[data-theme="dark"] .publicspeaking-card iframe {
+    border: 1px solid #444 !important;
+}
+
+/* Ensure proper hover effects in dark mode */
+html[data-theme="dark"] .card:hover {
+    background: #333 !important;
+    border-color: #FFD700 !important;
+}
+
+html[data-theme="dark"] .publicspeaking-card:hover .card-content {
+    background: linear-gradient(135deg, #333 0%, #2a2a2a 100%) !important;
+}
+
+html[data-theme="dark"] .publication-card:hover {
+    background: linear-gradient(135deg, #333 0%, #2a2a2a 100%) !important;
+} 
