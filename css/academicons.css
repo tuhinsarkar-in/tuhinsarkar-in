@@ -1,0 +1,906 @@
+/*
+ *  Academicons 1.9.4 by James Walsh (https://github.com/jpswalsh) and Katja Bercic (https://github.com/katjabercic)
+ *  Fonts generated using FontForge - https://fontforge.org
+ *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
+ *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
+ */
+@font-face {
+    font-family: 'Academicons';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src:url('../fonts/academicons.eot');
+    src:url('../fonts/academicons.eot') format('embedded-opentype'),
+        url('../fonts/academicons.ttf') format('truetype'),
+        url('../fonts/academicons.woff') format('woff'),
+        url('../images/academicons.svg') format('svg');
+}
+.ai {
+  font-family: 'Academicons';
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.ai-academia:before {
+  content: "\e9af";
+}
+.ai-academia-square:before {
+  content: "\e93d";
+}
+.ai-acclaim:before {
+  content: "\e92e";
+}
+.ai-acclaim-square:before {
+  content: "\e93a";
+}
+.ai-acm:before {
+  content: "\e93c";
+}
+.ai-acm-square:before {
+  content: "\e95d";
+}
+.ai-acmdl:before {
+  content: "\e96a";
+}
+.ai-acmdl-square:before {
+  content: "\e9d3";
+}
+.ai-ads:before {
+  content: "\e9cb";
+}
+.ai-ads-square:before {
+  content: "\e94a";
+}
+.ai-africarxiv:before {
+  content: "\e91b";
+}
+.ai-africarxiv-square:before {
+  content: "\e90b";
+}
+.ai-archive:before {
+  content: "\e955";
+}
+.ai-archive-square:before {
+  content: "\e956";
+}
+.ai-arxiv:before {
+  content: "\e974";
+}
+.ai-arxiv-square:before {
+  content: "\e9a6";
+}
+.ai-biorxiv:before {
+  content: "\e9a2";
+}
+.ai-biorxiv-square:before {
+  content: "\e98b";
+}
+.ai-ceur:before {
+  content: "\e96d";
+}
+.ai-ceur-square:before {
+  content: "\e92f";
+}
+.ai-ciencia-vitae:before {
+  content: "\e912";
+}
+.ai-ciencia-vitae-square:before {
+  content: "\e913";
+}
+.ai-clarivate:before {
+  content: "\e924";
+}
+.ai-clarivate-square:before {
+  content: "\e925";
+}
+.ai-closed-access:before {
+  content: "\e942";
+}
+.ai-closed-access-square:before {
+  content: "\e943";
+}
+.ai-conversation:before {
+  content: "\e94c";
+}
+.ai-conversation-square:before {
+  content: "\e915";
+}
+.ai-coursera:before {
+  content: "\e95f";
+}
+.ai-coursera-square:before {
+  content: "\e97f";
+}
+.ai-crossref:before {
+  content: "\e918";
+}
+.ai-crossref-square:before {
+  content: "\e919";
+}
+.ai-cv:before {
+  content: "\e9a5";
+}
+.ai-cv-square:before {
+  content: "\e90a";
+}
+.ai-datacite:before {
+  content: "\e91c";
+}
+.ai-datacite-square:before {
+  content: "\e91d";
+}
+.ai-dataverse:before {
+  content: "\e9f7";
+}
+.ai-dataverse-square:before {
+  content: "\e9e4";
+}
+.ai-dblp:before {
+  content: "\e94f";
+}
+.ai-dblp-square:before {
+  content: "\e93f";
+}
+.ai-depsy:before {
+  content: "\e97a";
+}
+.ai-depsy-square:before {
+  content: "\e94b";
+}
+.ai-doi:before {
+  content: "\e97e";
+}
+.ai-doi-square:before {
+  content: "\e98f";
+}
+.ai-dryad:before {
+  content: "\e97c";
+}
+.ai-dryad-square:before {
+  content: "\e98c";
+}
+.ai-elsevier:before {
+  content: "\e961";
+}
+.ai-elsevier-square:before {
+  content: "\e910";
+}
+.ai-figshare:before {
+  content: "\e981";
+}
+.ai-figshare-square:before {
+  content: "\e9e7";
+}
+.ai-google-scholar:before {
+  content: "\e9d4";
+}
+.ai-google-scholar-square:before {
+  content: "\e9f9";
+}
+.ai-hal:before {
+  content: "\e92c";
+}
+.ai-hal-square:before {
+  content: "\e92d";
+}
+.ai-hypothesis:before {
+  content: "\e95a";
+}
+.ai-hypothesis-square:before {
+  content: "\e95b";
+}
+.ai-ideas-repec:before {
+  content: "\e9ed";
+}
+.ai-ideas-repec-square:before {
+  content: "\e9f8";
+}
+.ai-ieee:before {
+  content: "\e929";
+}
+.ai-ieee-square:before {
+  content: "\e9b9";
+}
+.ai-impactstory:before {
+  content: "\e9cf";
+}
+.ai-impactstory-square:before {
+  content: "\e9aa";
+}
+.ai-inaturalist:before {
+  content: "\e900";
+}
+.ai-inaturalist-square:before {
+  content: "\e901";
+}
+.ai-inpn:before {
+  content: "\e902";
+}
+.ai-inpn-square:before {
+  content: "\e903";
+}
+.ai-inspire:before {
+  content: "\e9e9";
+}
+.ai-inspire-square:before {
+  content: "\e9fe";
+}
+.ai-isidore:before {
+  content: "\e936";
+}
+.ai-isidore-square:before {
+  content: "\e954";
+}
+.ai-isni:before {
+  content: "\e957";
+}
+.ai-isni-square:before {
+  content: "\e958";
+}
+.ai-jstor:before {
+  content: "\e938";
+}
+.ai-jstor-square:before {
+  content: "\e944";
+}
+.ai-lattes:before {
+  content: "\e9b3";
+}
+.ai-lattes-square:before {
+  content: "\e99c";
+}
+.ai-mathoverflow:before {
+  content: "\e9f6";
+}
+.ai-mathoverflow-square:before {
+  content: "\e97b";
+}
+.ai-mendeley:before {
+  content: "\e9f0";
+}
+.ai-mendeley-square:before {
+  content: "\e9f3";
+}
+.ai-moodle:before {
+  content: "\e907";
+}
+.ai-moodle-square:before {
+  content: "\e908";
+}
+.ai-mtmt:before {
+  content: "\e950";
+}
+.ai-mtmt-square:before {
+  content: "\e951";
+}
+.ai-nakala:before {
+  content: "\e940";
+}
+.ai-nakala-square:before {
+  content: "\e941";
+}
+.ai-obp:before {
+  content: "\e92a";
+}
+.ai-obp-square:before {
+  content: "\e92b";
+}
+.ai-open-access:before {
+  content: "\e939";
+}
+.ai-open-access-square:before {
+  content: "\e9f4";
+}
+.ai-open-data:before {
+  content: "\e966";
+}
+.ai-open-data-square:before {
+  content: "\e967";
+}
+.ai-open-materials:before {
+  content: "\e968";
+}
+.ai-open-materials-square:before {
+  content: "\e969";
+}
+.ai-openedition:before {
+  content: "\e946";
+}
+.ai-openedition-square:before {
+  content: "\e947";
+}
+.ai-orcid:before {
+  content: "\e9d9";
+}
+.ai-orcid-square:before {
+  content: "\e9c3";
+}
+.ai-osf:before {
+  content: "\e9ef";
+}
+.ai-osf-square:before {
+  content: "\e931";
+}
+.ai-overleaf:before {
+  content: "\e914";
+}
+.ai-overleaf-square:before {
+  content: "\e98d";
+}
+.ai-philpapers:before {
+  content: "\e98a";
+}
+.ai-philpapers-square:before {
+  content: "\e96f";
+}
+.ai-piazza:before {
+  content: "\e99a";
+}
+.ai-piazza-square:before {
+  content: "\e90c";
+}
+.ai-preregistered:before {
+  content: "\e906";
+}
+.ai-preregistered-square:before {
+  content: "\e96b";
+}
+.ai-protocols:before {
+  content: "\e952";
+}
+.ai-protocols-square:before {
+  content: "\e953";
+}
+.ai-psyarxiv:before {
+  content: "\e90e";
+}
+.ai-psyarxiv-square:before {
+  content: "\e90f";
+}
+.ai-publons:before {
+  content: "\e937";
+}
+.ai-publons-square:before {
+  content: "\e94e";
+}
+.ai-pubmed:before {
+  content: "\e99f";
+}
+.ai-pubmed-square:before {
+  content: "\e97d";
+}
+.ai-pubpeer:before {
+  content: "\e922";
+}
+.ai-pubpeer-square:before {
+  content: "\e923";
+}
+.ai-researcherid:before {
+  content: "\e91a";
+}
+.ai-researcherid-square:before {
+  content: "\e95c";
+}
+.ai-researchgate:before {
+  content: "\e95e";
+}
+.ai-researchgate-square:before {
+  content: "\e99e";
+}
+.ai-ror:before {
+  content: "\e948";
+}
+.ai-ror-square:before {
+  content: "\e949";
+}
+.ai-sci-hub:before {
+  content: "\e959";
+}
+.ai-sci-hub-square:before {
+  content: "\e905";
+}
+.ai-scirate:before {
+  content: "\e98e";
+}
+.ai-scirate-square:before {
+  content: "\e99d";
+}
+.ai-scopus:before {
+  content: "\e91e";
+}
+.ai-scopus-square:before {
+  content: "\e91f";
+}
+.ai-semantic-scholar:before {
+  content: "\e96e";
+}
+.ai-semantic-scholar-square:before {
+  content: "\e96c";
+}
+.ai-springer:before {
+  content: "\e928";
+}
+.ai-springer-square:before {
+  content: "\e99b";
+}
+.ai-ssrn:before {
+  content: "\e916";
+}
+.ai-ssrn-square:before {
+  content: "\e917";
+}
+.ai-stackoverflow:before {
+  content: "\e920";
+}
+.ai-stackoverflow-square:before {
+  content: "\e921";
+}
+.ai-viaf:before {
+  content: "\e933";
+}
+.ai-viaf-square:before {
+  content: "\e934";
+}
+.ai-wiley:before {
+  content: "\e926";
+}
+.ai-wiley-square:before {
+  content: "\e927";
+}
+.ai-zenodo:before {
+  content: "\e911";
+}
+.ai-zotero:before {
+  content: "\e962";
+}
+.ai-zotero-square:before {
+  content: "\e932";
+}
+/*  Duplication of the FontAwesome style classes using 'ai' in place of 'fa'. */
+.ai-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em;
+}
+.ai-xs {
+  font-size: .75em;
+}
+.ai-sm {
+  font-size: .875em;
+}
+
+.ai-1x {
+  font-size: 1em;
+}
+.ai-2x {
+  font-size: 2em;
+}
+.ai-3x {
+  font-size: 3em;
+}
+.ai-4x {
+  font-size: 4em;
+}
+.ai-5x {
+  font-size: 5em;
+}
+.ai-6x {
+  font-size: 6em;
+}
+.ai-7x {
+  font-size: 7em;
+}
+.ai-8x {
+  font-size: 8em;
+}
+.ai-9x {
+  font-size: 9em;
+}
+.ai-10x {
+  font-size: 10em;
+}
+
+.ai-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.ai-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.ai-ul > li {
+    position: relative;
+}
+.ai-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.ai-border {
+border: solid 0.08em #eee;
+border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.ai-pull-left {
+  float: left;
+}
+.ai-pull-right {
+  float: right;
+}
+.ai.ai-pull-left {
+  margin-right: .3em;
+}
+.ai.ai-pull-right {
+  margin-right: .3em;
+}
+
+.ai-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.ai-stack-1x,
+.ai-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.ai-stack-1x {
+  line-height: inherit;
+}
+.ai-stack-2x {
+  font-size: 2em;
+}
+.ai-inverse {
+  color: #fff;
+}
+/* From Uiverse.io by Yaya12085 */ 
+.card {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background-color: #F2F3F3;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+}
+
+.card a {
+  text-decoration: none
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(239, 205, 255);
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563EB;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+#cookiePopup {
+  background-color: #ffffff;
+  position: absolute;
+  font-size: 14px;
+  width: 70vw;
+  max-width: 42.85em;
+  box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 1.8em;
+  padding: 2em 1.4em;
+  border-radius: 6px;
+  transition: all 0.5s ease-in;
+}
+#cookiePopup img {
+  display: block;
+  width: 3.75em;
+  transform: translateZ(0);
+  position: relative;
+  margin: auto;
+}
+#cookiePopup p {
+  text-align: center;
+  margin: 1.4em 0;
+}
+#cookiePopup button {
+  background-color: #6859fe;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 1em 1.4em;
+  display: block;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+}
+#cookiePopup a {
+  color: #6859fe;
+}
+.hide {
+  visibility: hidden;
+  bottom: 0;
+  right: 2em;
+}
+.show {
+  visibility: visible;
+  bottom: 2em;
+  right: 2em;
+}
+@media only screen and (max-width: 37.5em) {
+  #cookiePopup {
+    width: 100%;
+  }
+  .hide {
+    bottom: 2em;
+    right: 0;
+  }
+  .show {
+    right: 0;
+    bottom: 0;
+  }
+}
+<----hehehe---->
+#slider {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+}
+#slider input[type=radio] {
+  display: none;
+}
+#slider label {
+  cursor: pointer;
+  text-decoration: none;
+}
+#slides {
+  padding: 10px;
+  border: 3px solid #ccc;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+#overflow {
+  width: 100%;
+  overflow: hidden;
+}
+#slide1:checked ~ #slides .inner { margin-left: 0; }
+#slide2:checked ~ #slides .inner { margin-left: -100%; }
+#slide3:checked ~ #slides .inner { margin-left: -200%; }
+#slide4:checked ~ #slides .inner { margin-left: -300%; }
+#slide5:checked ~ #slides .inner { margin-left: -400%; }
+#slide6:checked ~ #slides .inner { margin-left: -500%; }
+#slide7:checked ~ #slides .inner { margin-left: -600%; }
+
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 700%;
+  line-height: 0;
+  height: 300px;
+}
+#slides .slide {
+  width: 14.2857%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+#slides .slide_1 { background: #00171F; }
+#slides .slide_2 { background: #003459; }
+#slides .slide_3 { background: #007EA7; }
+#slides .slide_4 { background: #00A8E8; }
+#slides .slide_5 { background: #3DDC97; }
+#slides .slide_6 { background: #FF6B6B; }
+#slides .slide_7 { background: #FFB627; }
+
+#controls {
+  margin: -180px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+}
+#controls label {
+  transition: opacity 0.2s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: .4;
+}
+#controls label:hover {
+  opacity: 1;
+}
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(5),
+#slide5:checked ~ #controls label:nth-child(6),
+#slide6:checked ~ #controls label:nth-child(7),
+#slide7:checked ~ #controls label:nth-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+  float: right;
+  margin: 0 -50px 0 0;
+  display: block;
+}
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(5),
+#slide5:checked ~ #controls label:nth-last-child(6),
+#slide6:checked ~ #controls label:nth-last-child(7),
+#slide7:checked ~ #controls label:nth-last-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  float: left;
+  margin: 0 0 0 -50px;
+  display: block;
+}
+
+#bullets {
+  margin: 150px 0 0;
+  text-align: center;
+}
+#bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #ccc;
+  margin: 0 10px;
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4),
+#slide5:checked ~ #bullets label:nth-child(5),
+#slide6:checked ~ #bullets label:nth-child(6),
+#slide7:checked ~ #bullets label:nth-child(7) {
+  background: blue;
+}
+
+@media screen and (max-width: 900px) {
+  #slide1:checked ~ #controls label:nth-child(2),
+  #slide2:checked ~ #controls label:nth-child(3),
+  #slide3:checked ~ #controls label:nth-child(4),
+  #slide4:checked ~ #controls label:nth-child(5),
+  #slide5:checked ~ #controls label:nth-child(6),
+  #slide6:checked ~ #controls label:nth-child(7),
+  #slide7:checked ~ #controls label:nth-child(1),
+  #slide1:checked ~ #controls label:nth-last-child(2),
+  #slide2:checked ~ #controls label:nth-last-child(3),
+  #slide3:checked ~ #controls label:nth-last-child(4),
+  #slide4:checked ~ #controls label:nth-last-child(5),
+  #slide5:checked ~ #controls label:nth-last-child(6),
+  #slide6:checked ~ #controls label:nth-last-child(7),
+  #slide7:checked ~ #controls label:nth-last-child(1) {
+     margin: 0;
+  }
+  #slides {
+     max-width: calc(100% - 140px);
+     margin: 0 auto;
+  }
+}
+.contact-section {
+  width: 100%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 1rem;
+}
+
+.contact-intro > * + * {
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.contact-description {
+  color: rgb(107 114 128);
+}
+
+.form-group-container {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-input::placeholder,
+.form-textarea:focus-visible {
+  color: #6b7280;
+}
+
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  min-height: 120px;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: #3124ca;
+  color: #fff;
+  padding: 13px 5px;
+  border-radius: 0.375rem;
+}
