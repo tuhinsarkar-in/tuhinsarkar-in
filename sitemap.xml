@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage - Highest priority, updated frequently -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Me - High priority, core page about Tuhin -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/aboutme.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Projects/Portfolio - High priority, frequently updated with new work -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/projects.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Publications - High priority, academic content -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/publications.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Events/Public Speaking - High priority, updated with new events -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/events.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Education - Important biographical page -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/education.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact - Important for engagement -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/contact.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Donate/Support - Important for funding -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/donate.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Markdown Guide - Documentation/utility page -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/markdown.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Legal Pages - Lower priority, rarely change -->
+  <url>
+    <loc>https://www.tuhinsarkar.in/privacy-policy.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tuhinsarkar.in/cookie-policy.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tuhinsarkar.in/terms-conditions.html</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
