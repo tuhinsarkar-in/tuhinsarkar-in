@@ -348,6 +348,9 @@ NSocial
 <br>
 <hr>
 </div>
+
+   
+
     <div class="archive">
             <h1 class="page__title">Portfolio Websites</h1>
             <br>
@@ -1045,7 +1048,358 @@ T7/Melon N****'s Website             </span>
 
 </div>
 </div>
+<br>
+<hr />
+ <!-- Minecraft Server Section -->
+    <div class="archive">
 
+     
+        
+        <style>
+            .minecraft-server-card {
+                background: linear-gradient(135deg, #2d5016 0%, #4a7c2e 100%);
+                border-radius: 12px;
+                padding: 1em 1.5em;
+                margin: 0 auto 2em;
+                max-width: 1100px;
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+                border: 2px solid #6b9c47;
+                position: relative;
+                overflow: hidden;
+                font-size: 0.9em;
+            }
+            
+            .minecraft-server-card::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                right: -10%;
+                width: 400px;
+                height: 400px;
+                background: radial-gradient(circle, rgba(139, 195, 74, 0.2) 0%, transparent 70%);
+                border-radius: 50%;
+                pointer-events: none;
+            }
+            
+            .mc-header {
+                display: flex;
+                align-items: center;
+                gap: 1em;
+                margin-bottom: 1em;
+                position: relative;
+                z-index: 1;
+            }
+            
+            .mc-icon {
+                font-size: 2.5em;
+                filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));
+            }
+            
+            .mc-title-section h2 {
+                color: #fff;
+                font-size: 1.4em;
+                margin: 0 0 0.3em 0;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+                font-weight: 700;
+            }
+            
+            .mc-server-address {
+                background: rgba(0, 0, 0, 0.4);
+                padding: 0.4em 0.9em;
+                border-radius: 8px;
+                font-family: 'Courier New', monospace;
+                font-size: 1em;
+                color: #8bc34a;
+                font-weight: bold;
+                display: inline-block;
+                border: 2px solid #6b9c47;
+                box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+            }
+            
+            .mc-content {
+                position: relative;
+                z-index: 1;
+            }
+            
+            .mc-info-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.2em;
+                margin: 1.5em 0;
+            }
+            
+            .mc-info-box {
+                background: rgba(255, 255, 255, 0.15);
+                backdrop-filter: blur(10px);
+                border-radius: 12px;
+                padding: 1.2em;
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                transition: all 0.3s ease;
+            }
+            
+            .mc-info-box:hover {
+                background: rgba(255, 255, 255, 0.2);
+                transform: translateY(-4px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            }
+            
+            .mc-info-box h3 {
+                color: #fff;
+                font-size: 1.1em;
+                margin: 0 0 0.5em 0;
+                display: flex;
+                align-items: center;
+                gap: 0.4em;
+            }
+            
+            .mc-info-box p {
+                color: #e0e0e0;
+                font-size: 0.95em;
+                margin: 0;
+                line-height: 1.5;
+            }
+            
+            .mc-description {
+                background: rgba(0, 0, 0, 0.3);
+                border-left: 3px solid #8bc34a;
+                padding: 0.8em 1em;
+                border-radius: 6px;
+                margin: 1em 0;
+                color: #e0e0e0;
+                line-height: 1.5;
+                font-size: 0.95em;
+            }
+            
+            .mc-description strong {
+                color: #8bc34a;
+            }
+            
+            .mc-cta-section {
+                display: flex;
+                gap: 1em;
+                margin-top: 1.2em;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            
+            .mc-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5em;
+                padding: 0.65em 1.4em;
+                border-radius: 10px;
+                font-size: 0.95em;
+                font-weight: 700;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                border: none;
+                cursor: pointer;
+                box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+            }
+            
+            .mc-btn-minecraft {
+                background: linear-gradient(135deg, #8bc34a 0%, #689f38 100%);
+                color: #fff;
+            }
+            
+            .mc-btn-minecraft:hover {
+                background: linear-gradient(135deg, #9ccc65 0%, #7cb342 100%);
+                transform: translateY(-3px);
+                box-shadow: 0 6px 25px rgba(139, 195, 74, 0.4);
+            }
+            
+            .mc-btn-discord {
+                background: linear-gradient(135deg, #5865F2 0%, #4752C4 100%);
+                color: #fff !important;
+            }
+            
+            .mc-btn-discord:hover {
+                background: linear-gradient(135deg, #6875f5 0%, #5865F2 100%);
+                transform: translateY(-3px);
+                box-shadow: 0 6px 25px rgba(88, 101, 242, 0.4);
+                color: #fff !important;
+            }
+            
+            /* Ensure button text is always white in both modes */
+            html[data-theme="dark"] .mc-btn-discord,
+            html[data-theme="light"] .mc-btn-discord,
+            .mc-btn-discord * {
+                color: #fff !important;
+            }
+            
+            .mc-features {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1em;
+                margin-top: 1.5em;
+            }
+            
+            .mc-feature-tag {
+                background: rgba(139, 195, 74, 0.3);
+                color: #fff;
+                padding: 0.5em 1em;
+                border-radius: 20px;
+                font-size: 0.9em;
+                border: 1px solid rgba(139, 195, 74, 0.5);
+            }
+            
+            .mc-access-info {
+                background: rgba(255, 152, 0, 0.2);
+                border: 2px solid #ff9800;
+                border-radius: 10px;
+                padding: 0.9em;
+                margin-top: 1em;
+                color: #fff;
+                font-size: 0.95em;
+            }
+            
+            .mc-access-info h3 {
+                color: #ffd54f;
+                margin: 0 0 0.6em 0;
+                display: flex;
+                align-items: center;
+                gap: 0.5em;
+                font-size: 1.05em;
+            }
+            
+            .mc-access-steps {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .mc-access-steps li {
+                padding: 0.6em 0;
+                padding-left: 1.8em;
+                position: relative;
+                color: #ffe082;
+            }
+            
+            .mc-access-steps li::before {
+                content: '▸';
+                position: absolute;
+                left: 0;
+                color: #ff9800;
+                font-weight: bold;
+            }
+            
+            /* Dark Mode Support */
+            html[data-theme="dark"] .minecraft-server-card {
+                background: linear-gradient(135deg, #1a2f0f 0%, #2d4a1e 100%);
+                border-color: #4a6b2f;
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+            }
+            
+            html[data-theme="dark"] .minecraft-server-card::before {
+                background: radial-gradient(circle, rgba(107, 156, 71, 0.15) 0%, transparent 70%);
+            }
+            
+            html[data-theme="dark"] .mc-server-address {
+                background: rgba(0, 0, 0, 0.6);
+                border-color: #4a6b2f;
+                color: #9ccc65;
+            }
+            
+            html[data-theme="dark"] .mc-description {
+                background: rgba(0, 0, 0, 0.5);
+                border-left-color: #9ccc65;
+                color: #d0d0d0;
+            }
+            
+            html[data-theme="dark"] .mc-description strong {
+                color: #9ccc65;
+            }
+            
+            html[data-theme="dark"] .mc-access-info {
+                background: rgba(255, 152, 0, 0.15);
+                border-color: #d68100;
+            }
+            
+            html[data-theme="dark"] .mc-access-info h3 {
+                color: #ffc857;
+            }
+            
+            html[data-theme="dark"] .mc-access-steps li {
+                color: #ffd97d;
+            }
+            
+            html[data-theme="dark"] .mc-access-steps li::before {
+                color: #ff9800;
+            }
+            
+            html[data-theme="dark"] .mc-cta-section > div {
+                color: #c0c0c0;
+            }
+            
+            @media (max-width: 768px) {
+                .minecraft-server-card {
+                    padding: 1.5em;
+                }
+                
+                .mc-header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                
+                .mc-title-section h2 {
+                    font-size: 1.5em;
+                }
+                
+                .mc-server-address {
+                    font-size: 1.1em;
+                }
+                
+                .mc-cta-section {
+                    flex-direction: column;
+                    align-items: stretch;
+                }
+                
+                .mc-btn {
+                    justify-content: center;
+                }
+            }
+        </style>
+        
+        <div class="minecraft-server-card">
+            <div class="mc-header">
+                <div class="mc-icon">🏰</div>
+                <div class="mc-title-section">
+                    <h2>Official Minecraft Server</h2>
+                    <div class="mc-server-address">playmc.tuhinsarkar.in</div>
+                </div>
+            </div>
+            
+            <div class="mc-content">
+                <div class="mc-description">
+                    <strong>Welcome to my official Minecraft Server!</strong> This is an architectural archive showcasing large-scale builds and creative projects. Running on <strong>Java Edition 1.21.8</strong>, hosted on Aternos (free hosting). The server will be updated periodically as newer versions release.
+                </div>
+                
+                <div class="mc-access-info">
+                    <h3>🔑 How to Get Access</h3>
+                    <ul class="mc-access-steps">
+                        <li>Join as <strong>Spectator</strong> by default (no griefing)</li>
+                        <li>To start the server yourself: On Discord, open a ticket in <strong>#🌐・aternos-username</strong> channel and provide your Aternos username.</li>
+                        <li>For <strong>Builder access</strong> (Creative/Survival): Get vouched by a trusted member or staff and have your Minecraft username added to the builders list.</li>
+                        <li>Suggest builds and collaborate in <strong>#💡・suggestions</strong></li>
+                    </ul>
+                </div>
+                
+                <div class="mc-cta-section">
+                    <a href="https://discord.gg/VVw7BTVM9x" target="_blank" class="mc-btn mc-btn-discord">
+                        <span style="font-size: 1.4em;">💬</span>
+                        Join Discord Server
+                    </a>
+                    
+                    <div style="color: #e0e0e0; font-size: 0.95em;">
+                        <strong>Note:</strong> Server uses Aternos, so it's not online 24/7. Start it via Discord or request access!
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <hr>
+    </div>
 </div>
 
 <!-- Container to hold cards side by side -->
