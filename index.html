@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuhin Sarkar — Designer, Developer, Thinker</title>
+    <meta name="description" content="Portfolio of Tuhin Sarkar  UI/UX designer, frontend developer, and graphic designer crafting digital experiences that merge art, code, and thought.">
+    <link rel="canonical" href="https://tuhinsarkar.com/">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tuhin Sarkar  Designer, Developer, Thinker">
+    <meta property="og:description" content="Explore the work, projects, and ideas of Tuhin Sarkar, a designer and developer creating thoughtful digital experiences.">
+    <meta property="og:url" content="https://tuhinsarkar.com/">
+    <meta property="og:image" content="https://tuhinsarkar.com/images/tuhinsarkar.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tuhinsarkar">
+    <meta name="twitter:title" content="Tuhin Sarkar  Designer, Developer, Thinker">
+    <meta name="twitter:description" content="Portfolio of Tuhin Sarkar  UI/UX designer, frontend developer, and graphic designer.">
+    <meta name="twitter:image" content="https://tuhinsarkar.com/images/tuhinsarkar.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <canvas id="particle-canvas"></canvas>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href = "/">Tuhin Sarkar</a></div>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="mobileNav">
+          <a href="/">Home</a>
+            <a href="/#about">About</a>
+            <a href="/#projects">Work</a>
+   <a href="publications.html">Publications</a>
+            <a href="events.html">Events</a>
+            <a href="https://instagram.com/tuhinsarkar.art">Art Gallery</a>
+            <a href="minecraft.html">Minecraft</a>
+               <a href="https://sarknet.substack.com">Blog</a>
+            <a href="contact.html">Contact</a>
+              <a href="donate.html">Donate</a>
+              
+              <!-- Animation Toggle in Mobile Menu -->
+              <div class="mobile-menu-toggle-wrapper">
+                  <button id="animationToggleMobile" class="animation-toggle-mobile" aria-label="Toggle Animations">
+                      <div class="toggle-switch">
+                          <div class="toggle-slider"></div>
+                      </div>
+                      <span class="toggle-text">Animations</span>
+                  </button>
+              </div>
+        </nav>
+    </header>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://linkedin.com/in/tuhinsarkar" class="social-icon" title="LinkedIn">
+            <img src="images/icons8-linkedin-50.png" alt="LinkedIn">
+        </a>
+         <a href="https://behance.net/tuhinsarkar" class="social-icon" title="Behance">
+            <img src="images/icons8-behance-48.png" alt="Behance">
+        </a>
+       
+        <a href="https://github.com/tuhinsarkar" class="social-icon" title="GitHub">
+            <img src="images/icons8-github-24.png" alt="GitHub">
+        </a>
+         <a href="https://youtube.com/@tuhinsarkar" class="social-icon" title="YouTube">
+            <img src="images/icons8-youtube-48.png" alt="YouTube">
+        </a>
+       
+        <a href="https://instagram.com/tuhinsarkar" class="social-icon" title="Instagram">
+            <img src="images/icons8-instagram-48.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/tuhinsarkar" class="social-icon" title="Twitter">
+            <img src="images/icons8-twitter-50.png" alt="Twitter">
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Animation -->
+        <div id="heroAnimation" class="hero-video-bg"></div>
+        <div class="hero-video-overlay"></div>
+        
+        <div class="hero-content">
+            
+            <h1 >Tuhin Sarkar</h1>
+            <p class="hero-tagline">
+                 UI/UX Designer | Frontend Developer | Graphic Designer<br>
+                Crafting digital experiences that merge art, code, and thought
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Explore Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            
+            <!-- Mobile Social Links -->
+            <div class="hero-social-mobile">
+                <a href="https://linkedin.com/in/tuhinsarkar" class="hero-social-icon" title="LinkedIn">
+                    <img src="images/icons8-linkedin-50.png" alt="LinkedIn">
+                </a>
+                <a href="https://behance.net/tuhinsarkar" class="hero-social-icon" title="Behance">
+                    <img src="images/icons8-behance-48.png" alt="Behance">
+                </a>
+                <a href="https://github.com/tuhinsarkar" class="hero-social-icon" title="GitHub">
+                    <img src="images/icons8-github-24.png" alt="GitHub">
+                </a>
+                <a href="https://youtube.com/@tuhinsarkar" class="hero-social-icon" title="YouTube">
+                    <img src="images/icons8-youtube-48.png" alt="YouTube">
+                </a>
+                <a href="https://instagram.com/tuhinsarkar" class="hero-social-icon" title="Instagram">
+                    <img src="images/icons8-instagram-48.png" alt="Instagram">
+                </a>
+                <a href="https://twitter.com/tuhinsarkar" class="hero-social-icon" title="Twitter">
+                    <img src="images/icons8-twitter-50.png" alt="Twitter">
+                </a>
+            </div>
+        </div>
+        
+        <!-- Animation Toggle Button -->
+        <button id="animationToggle" class="animation-toggle" aria-label="Toggle Animations">
+            <div class="toggle-switch">
+                <div class="toggle-slider"></div>
+            </div>
+            <span class="toggle-text">Animations</span>
+        </button>
+        
+        <div class="scroll-indicator-arrows">
+            <div class="arrow-down"></div>
+            <div class="arrow-down"></div>
+            <div class="arrow-down"></div>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <hr class="section-divider">
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <div class="section-label">About</div>
+            <h2>Designer. Developer. Thinker.</h2>
+            <p>Blending creativity, technology, and philosophy to craft meaningful experiences</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a designer and developer with 2+ years of experience crafting digital experiences that blend aesthetics, functionality, and meaning.</p>
+                <p>My expertise spans UI/UX design, frontend development, and the intersection of technology with philosophy and geopolitics. I specialize in creating intuitive interfaces and building products that solve real problems.</p>
+                <p>From AI companions and Discord bots to research on deepfake detection and magnetocaloric cooling, my work demonstrates a passion for innovation. I believe in using technology as a canvas for both functional and philosophical expression.</p>
+                <p style="margin-top: 20px; padding: 20px; background: rgba(217, 160, 102, 0.08); border-left: 3px solid var(--accent-gold); border-radius: 8px;">In 2025, I was admitted to <strong>The Knowledge Society (TKS)</strong> — one of the world's leading innovation programs for young technologists — with the maximum financial aid and scholarship, though I was ultimately unable to attend due to family and financial constraints. <a href="https://open.substack.com/pub/sarknet/p/admitted-to-the-knowledge-society?r=4kwioq&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); text-decoration: none; font-weight: 600;">Read more →</a></p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>Experience</h3>
+                    <p>2+ Years</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Projects</h3>
+                    <p>15+</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Specialization</h3>
+                    <p>UI/UX & Frontend</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Ideas to Build</h3>
+                    <p>∞</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- What I Offer Section -->
+    <section id="services">
+        <div class="section-header">
+            <div class="section-label">Services</div>
+            <h2>What I Offer</h2>
+            <p>Comprehensive design and development solutions to bring your vision to life</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><img src="images/icons8-web-development-64.png" alt="Web development icon"></div>
+                <h3>Web Development</h3>
+                <p>Building responsive, performant websites using HTML, CSS, and JavaScript. Clean code, modern frameworks, and pixel-perfect implementations.</p>
+                <div class="service-tags">
+                    <span class="service-tag">HTML</span>
+                    <span class="service-tag">CSS</span>
+                    <span class="service-tag">JavaScript</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><img src="images/icons8-web-design-64.png" alt="Web design icon"></div>
+                <h3>Web Design</h3>
+                <p>Crafting beautiful, user-centered web designs that capture attention and drive engagement. From concept to high-fidelity mockups.</p>
+                <div class="service-tags">
+                    <span class="service-tag">Figma</span>
+                    <span class="service-tag">Prototyping</span>
+                    <span class="service-tag">Visual Design</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><img src="images/icons8-app-design-66.png" alt="App design icon"></div>
+                <h3>App Design</h3>
+                <p>Designing intuitive mobile and desktop applications with focus on usability, accessibility, and delightful user experiences.</p>
+                <div class="service-tags">
+                    <span class="service-tag">Mobile UI</span>
+                    <span class="service-tag">Desktop Apps</span>
+                    <span class="service-tag">Wireframing</span>
+                </div>
+            </div>
+
+                        <div class="service-card">
+                    <div class="service-icon"><img src="images/icons8-ui-48.png" alt="UI design icon"></div>
+                <h3>User Interface Design</h3>
+                <p>Creating visually stunning interfaces that balance aesthetics with functionality. Every pixel crafted with intention and purpose.</p>
+                <div class="service-tags">
+                    <span class="service-tag">UI Design</span>
+                    <span class="service-tag">Design Systems</span>
+                    <span class="service-tag">Components</span>
+                </div>
+            </div>
+
+          
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <div class="section-label">Selected Work</div>
+            <h2>Projects & Creations</h2>
+            <p>A curated collection of digital products, experiments, and creative explorations</p>
+        </div>
+
+        <!-- Web Development Projects -->
+        <div style="margin-bottom: 60px;">
+            <h3 style="font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 32px; color: var(--accent-gold); margin-bottom: 40px; text-align: center; font-weight: 700;">Web Development</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/gysj.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Publishing</span>
+                            <span class="tag">Research</span>
+                            <span class="tag">Open Access</span>
+                        </div>
+                        <h3>Global Youth Science Journal</h3>
+                        <p>Global Youth Science Journal (GYS Journal) is a peer-reviewed, open-access platform for young researchers. Explore our latest publications and join our community!</p>
+                        <a href="https://gysjournals.org" class="project-link" target="_blank">Visit Now →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/gardengrow.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Competition</span>
+                            <span class="tag">Ad Making</span>
+                            <span class="tag">Team Project</span>
+                        </div>
+                        <h3>GardenGrow</h3>
+                        <p>Created for Samvit 2025-2026 Ad Making Competition at New Baldwin International School, Mandur (November 8, 2025). Team: Tuhin Sarkar (Leader), Dhruv, Divija, Himani, Drishya. A compelling advertisement website showcasing creative design and teamwork.</p>
+                        <a href="https://thegardengrow.vercel.app" class="project-link" target="_blank">Visit Now →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/fifinkle.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Companion</span>
+                            <span class="tag">No Account</span>
+                        </div>
+                        <h3>Fifinkle A.I</h3>
+                        <p>Fifinkle is an independently owned companion AI you can use without an account. It chats, generates text, does math, coaches you, helps you focus, and more - your trusted companion for everyday life.</p>
+                        <a href="https://fifinkle.com" class="project-link" target="_blank">Visit Now →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/ayumi.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Bot</span>
+                            <span class="tag">Discord</span>
+                            <span class="tag">AI-Powered</span>
+                        </div>
+                        <h3>Ayumi Bot</h3>
+                        <p>Ayumi is an AI-powered Discord bot that keeps your server safe with smart moderation, brings fun with social commands and games, and helps out with useful tools like translation and reminders—your all-in-one companion for a better Discord experience.</p>
+                        <a href="https://ayumibot.xyz" class="project-link" target="_blank">Visit Now →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/inqueerium.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">LGBTQ+</span>
+                            <span class="tag">Survey</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <h3>Inqueerium</h3>
+                        <p>Inqueerium is an anonymous, open-source, community-driven study that collects and shares LGBTQ+ experiences across India. Participants can take surveys, explore aggregated results, and access anonymized data to support research and advocacy.</p>
+                        <a href="https://inqueerium.com" class="project-link" target="_blank">Visit Now →</a>
+                    </div>
+                </div>
+
+            
+
+               
+            </div>
+        </div>
+
+        <!-- Portfolio Websites -->
+        <div style="margin-bottom: 60px;">
+            <h3 style="font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 32px; color: var(--accent-cyan); margin-bottom: 40px; text-align: center; font-weight: 700;">Portfolio Websites</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/arnav.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <h3>Arnav Anand's Portfolio</h3>
+                        <p>A beautifully crafted portfolio website showcasing Arnav Anand's work, projects, and achievements with modern design principles.</p>
+                        <a href="https://arnavanand.com" class="project-link" target="_blank">Visit the Website →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/shritishparram.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <h3>Shritish Parram's Portfolio</h3>
+                        <p>An elegant portfolio website designed to highlight Shritish Parram's creative work and professional journey.</p>
+                        <a href="https://shritishparram.com" class="project-link" target="_blank">Visit the Website →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/vinay.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <h3>Vinay Kumar's Portfolio</h3>
+                        <p>A professional portfolio website showcasing Vinay Kumar's expertise, projects, and accomplishments.</p>
+                        <a href="https://vinaykumar.com" class="project-link" target="_blank">Visit the Website →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: url('images/kasi.png') center/contain no-repeat;"></div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <h3>Kasi Satya's Portfolio</h3>
+                        <p>A thoughtfully designed portfolio website representing Kasi Satya's creative vision and professional work.</p>
+                        <a href="https://kasisatya.com" class="project-link" target="_blank">Visit the Website →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Glentree Academy Media Club Section -->
+    <section class="media-club-section">
+        <div style="max-width: 1600px; margin: 0 auto;">
+            <!-- Section Header Badge -->
+            <div style="text-align: center; margin-bottom: 60px;">
+                <div style="display: inline-block; padding: 12px 28px; background: linear-gradient(135deg, rgba(217, 160, 102, 0.1), rgba(124, 198, 232, 0.1)); border-radius: 50px; border: 1px solid rgba(217, 160, 102, 0.3); margin-bottom: 20px;">
+                    <span style="font-size: 14px; font-weight: 600; color: var(--accent-gold); letter-spacing: 2px; text-transform: uppercase;">📚 Media & Editorial</span>
+                </div>
+                <h2 style="font-size: clamp(36px, 5vw, 56px); font-weight: 700; margin-bottom: 24px; background: linear-gradient(135deg, var(--accent-gold), var(--accent-cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Glentree Academy Club & Media</h2>
+                <div style="width: 80px; height: 4px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-cyan)); margin: 0 auto; border-radius: 2px;"></div>
+            </div>
+
+            <!-- Two Column Layout: Info + Featured Work -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; margin-bottom: 80px;">
+                
+                <!-- Left Column: Description & Roles -->
+                <div style="position: relative;">
+                    <div style="position: sticky; top: 100px;">
+                        <div style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01)); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 24px; padding: 40px; position: relative; overflow: hidden;">
+                            <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: radial-gradient(circle, var(--glow-gold), transparent); opacity: 0.15; filter: blur(60px); pointer-events: none;"></div>
+                            
+                            <h3 style="font-size: 28px; font-weight: 700; color: var(--text-heading); margin-bottom: 24px; position: relative;">About My Role</h3>
+                            
+                            <p style="color: var(--text-body); font-size: 17px; line-height: 1.9; margin-bottom: 32px; position: relative;">
+                                I am an active member of <span style="color: var(--accent-gold); font-weight: 600;">Glentree Academy's media club</span>, where I serve on the editorial team of our school magazine <span style="color: var(--accent-cyan); font-weight: 600; font-style: italic;">"Rivesta"</span>. My diverse roles include <strong style="color: var(--text-heading);">graphic design</strong>, <strong style="color: var(--text-heading);">content creation</strong>, <strong style="color: var(--text-heading);">social media management</strong>, and <strong style="color: var(--text-heading);">event coverage</strong>.
+                            </p>
+                            
+                            <div style="background: rgba(217, 160, 102, 0.05); border-left: 3px solid var(--accent-gold); padding: 20px; border-radius: 12px; margin-bottom: 32px;">
+                                <p style="color: var(--text-body); font-size: 15px; line-height: 1.8; margin: 0;">
+                                    We collaborate to create compelling digital content, design promotional materials, and manage the school's online presence across various platforms.
+                                </p>
+                            </div>
+                            
+                            <!-- Role Cards Grid -->
+                            <h4 style="font-size: 18px; font-weight: 700; color: var(--text-subheading); margin-bottom: 20px;">My Responsibilities</h4>
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                                <div style="padding: 20px; background: rgba(217, 160, 102, 0.08); border: 1px solid rgba(217, 160, 102, 0.2); border-radius: 16px; transition: all 0.3s ease;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">✏️</div>
+                                    <div style="font-weight: 700; color: var(--accent-gold); font-size: 15px; margin-bottom: 4px;">Editor</div>
+                                    <div style="font-size: 12px; color: var(--text-muted);">Content curation</div>
+                                </div>
+                                <div style="padding: 20px; background: rgba(124, 198, 232, 0.08); border: 1px solid rgba(124, 198, 232, 0.2); border-radius: 16px; transition: all 0.3s ease;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">🎨</div>
+                                    <div style="font-weight: 700; color: var(--accent-cyan); font-size: 15px; margin-bottom: 4px;">Designer</div>
+                                    <div style="font-size: 12px; color: var(--text-muted);">Visual creation</div>
+                                </div>
+                                <div style="padding: 20px; background: rgba(193, 127, 215, 0.08); border: 1px solid rgba(193, 127, 215, 0.2); border-radius: 16px; transition: all 0.3s ease;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">📱</div>
+                                    <div style="font-weight: 700; color: var(--accent-magenta); font-size: 15px; margin-bottom: 4px;">Social Media</div>
+                                    <div style="font-size: 12px; color: var(--text-muted);">Online presence</div>
+                                </div>
+                                <div style="padding: 20px; background: rgba(232, 155, 166, 0.08); border: 1px solid rgba(232, 155, 166, 0.2); border-radius: 16px; transition: all 0.3s ease;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">📸</div>
+                                    <div style="font-weight: 700; color: var(--accent-rose); font-size: 15px; margin-bottom: 4px;">Event Coverage</div>
+                                    <div style="font-size: 12px; color: var(--text-muted);">Documentation</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Featured Magazine -->
+                <div style="position: relative;">
+                    <div style="position: absolute; top: -30px; right: -30px; width: 250px; height: 250px; background: radial-gradient(circle, var(--glow-gold), transparent); opacity: 0.2; filter: blur(80px); pointer-events: none; z-index: -1;"></div>
+                    
+                    <div style="display: inline-block; padding: 8px 20px; background: linear-gradient(135deg, rgba(217, 160, 102, 0.15), rgba(217, 160, 102, 0.05)); border-radius: 30px; border: 1px solid rgba(217, 160, 102, 0.3); margin-bottom: 24px;">
+                        <span style="color: var(--accent-gold); font-size: 13px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase;">✨ Featured Work</span>
+                    </div>
+                    
+                    <h3 style="font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 32px; color: var(--text-heading); font-weight: 700; margin-bottom: 8px;">Rivesta School Magazine</h3>
+                    <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 30px;">Official School Publication • 2024-2025</p>
+                    
+                    <div style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02)); border: 1px solid rgba(217, 160, 102, 0.25); border-radius: 24px; overflow: hidden; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);">
+                        <!-- Magazine Cover -->
+                        <div style="background: linear-gradient(135deg, rgba(10, 12, 16, 0.8), rgba(19, 19, 24, 0.8)); padding: 30px; display: flex; align-items: center; justify-content: center; position: relative;">
+                            <img src="images/rivestaa.png" alt="Rivesta Magazine Cover" style="width: 100%; max-width: 420px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);">
+                            <div style="position: absolute; top: 20px; right: 20px; background: rgba(217, 160, 102, 0.95); backdrop-filter: blur(10px); padding: 10px 20px; border-radius: 25px; font-size: 12px; font-weight: 700; color: #0A0C10; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(217, 160, 102, 0.4); z-index: 10;">OFFICIAL EDITION</div>
+                        </div>
+                        
+                        <!-- Magazine Info -->
+                        <div style="padding: 32px;">
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+                                <span style="padding: 6px 14px; background: rgba(217, 160, 102, 0.15); border: 1px solid rgba(217, 160, 102, 0.3); border-radius: 20px; color: var(--accent-gold); font-size: 13px; font-weight: 600;">Editorial</span>
+                                <span style="padding: 6px 14px; background: rgba(124, 198, 232, 0.15); border: 1px solid rgba(124, 198, 232, 0.3); border-radius: 20px; color: var(--accent-cyan); font-size: 13px; font-weight: 600;">Graphic Design</span>
+                                <span style="padding: 6px 14px; background: rgba(193, 127, 215, 0.15); border: 1px solid rgba(193, 127, 215, 0.3); border-radius: 20px; color: var(--accent-magenta); font-size: 13px; font-weight: 600;">Magazine</span>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 16px; background: linear-gradient(135deg, rgba(124, 198, 232, 0.1), rgba(124, 198, 232, 0.05)); border-left: 3px solid var(--accent-cyan); border-radius: 12px; margin-bottom: 20px;">
+                                <span style="font-size: 28px;">👤</span>
+                                <div>
+                                    <p style="margin: 0; color: var(--accent-cyan); font-weight: 700; font-size: 15px;">Editor: Tuhin Sarkar</p>
+                                    <p style="margin: 0; color: var(--text-muted); font-size: 13px;">See page 10 for editorial spotlight</p>
+                                </div>
+                            </div>
+                            
+                            <p style="font-size: 15px; line-height: 1.8; color: var(--text-body); margin-bottom: 24px;">Proud to serve as an editor for my school's official magazine! Explore student achievements, creative writing, and more.</p>
+                            
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; background: linear-gradient(135deg, var(--accent-gold), #C18A4A); color: #0A0C10; text-decoration: none; border-radius: 12px; font-size: 15px; font-weight: 700; box-shadow: 0 10px 30px rgba(217, 160, 102, 0.3); transition: all 0.3s ease;">
+                                <span>📖</span>
+                                <span>Read the Flipbook</span>
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Social Media Posts -->
+            <div style="margin-bottom: 80px;">
+                <h3 style="font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 32px; color: var(--accent-cyan); margin-bottom: 40px; text-align: center; font-weight: 700;">Posters (Rivesta) </h3>
+                <div class="social-posts-grid">
+                    <div class="social-post-card">
+                        <img src="images/glentreeacademy1.png" alt="Independence Day Celebration" style="width: 100%; height: auto; display: block; border-radius: 16px;">
+                    </div>
+                    <div class="social-post-card">
+                        <img src="images/glentreeacademy2.png" alt="Toddler Activities" style="width: 100%; height: auto; display: block; border-radius: 16px;">
+                    </div>
+                    <div class="social-post-card">
+                        <img src="images/glentreeacademy3.jpeg" alt="Primary Students Artwork" style="width: 100%; height: auto; display: block; border-radius: 16px;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Posts -->
+            <div style="margin-bottom: 80px;">
+                <h3 style="font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 32px; color: var(--accent-magenta); margin-bottom: 40px; text-align: center; font-weight: 700;">Social Media Posts</h3>
+                <div style="max-width: 900px; margin: 0 auto; background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; overflow: hidden;">
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr style="background: rgba(255, 255, 255, 0.05);">
+                                <th style="padding: 20px; text-align: left; color: var(--accent-magenta); font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 18px; font-weight: 700; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">Title</th>
+                                <th style="padding: 20px; text-align: left; color: var(--accent-magenta); font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 18px; font-weight: 700; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">Facebook Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Freedom in Every Beat: Celebrating India's 79th Year of Independence</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/v/1Drh5ahmcL/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Tiranga Tales: Little Hands, Big Smiles</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/177LfsrquY/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Primary students' artwork</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/198WCm9voV/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr style="border-top: 1px solid rgba(255, 255, 255, 0.05);"></tr>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Get Set... only 5 more days</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/17cboo2APr/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Sports Day is almost here! Get ready for a day full of energy, teamwork, and unforgettable moments. Let the countdown begin!</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/v/1D1KtKDxMZ/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">4 days to go! Excitement is in the air as we gear up for Sports Daya day of energy, teamwork, and fun! Let the countdown begin!</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/1G4AQt8x98/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Just 3 more days</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/1DwHNbVyxg/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Just 1 day to go! The excitement is real!</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/1FkE3bR2h7/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 20px; color: var(--text-primary); font-size: 16px;">Energy high, excitement louderSports Day is coming!</td>
+                                <td style="padding: 20px; overflow: visible;">
+                                    <a href="https://www.facebook.com/share/r/18op2kdS6K/" target="_blank" class="btn btn-primary" style="font-size: 14px; padding: 12px 28px; display: inline-block;">View Post</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Short Movies -->
+            <div style="margin-bottom: 80px;">
+                <h3 style="font-family: 'Futura', 'Century Gothic', sans-serif; font-size: 32px; color: var(--accent-rose); margin-bottom: 40px; text-align: center; font-weight: 700;">Short Movies</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TQBI6_fIr24?si=llH-Wub9KlfL_gPg" title="ABDUCTED II - OFFICIAL TRAILER | Actors - Nishanth, Geethan, Tejeesh, Kasi, Sai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h4>ABDUCTED II - OFFICIAL TRAILER</h4>
+                            <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 12px;">Actors - Nishanth, Geethan, Tejeesh, Kasi, Sai</p>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/WuRAFFADAOk?si=FTsydTtlrN47mDKv" title="ABDUCTED 2 - FULL MOVIE | Actors - Nishanth, Geethan, Tejeesh, Kasi, Sai, Vivaan, Pravinya" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h4>ABDUCTED 2 - FULL MOVIE</h4>
+                            <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 12px;">Actors - Nishanth, Geethan, Tejeesh, Kasi, Sai, Vivaan, Pravinya</p>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qi83hYvg6R4?si=n52RHuVkbdbRT1nT" title="ABDUCTED 3 - OFFICIAL TRAILER | Actors - Nishanth and Kasi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <h4>ABDUCTED 3 - OFFICIAL TRAILER</h4>
+                            <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 12px;">Actors - Nishanth and Kasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+   
+
+   
+    <!-- Contact Section -->
+    <section id="contact">
+        <div style="max-width: 1200px; margin: 0 auto; position: relative;">
+            <!-- Single Wide Glassmorphic Box -->
+            <div style="
+                background: rgba(255, 255, 255, 0.03);
+                backdrop-filter: blur(30px);
+                -webkit-backdrop-filter: blur(30px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 24px;
+                padding: 100px 80px;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 
+                    0 8px 32px rgba(0, 0, 0, 0.3),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+                transition: box-shadow 0.3s ease, border-color 0.3s ease;
+            " class="connect-box">
+                <!-- Animated gradient background -->
+                <div style="
+                    position: absolute;
+                    top: -50%;
+                    left: -50%;
+                    width: 200%;
+                    height: 200%;
+                    background: radial-gradient(circle at 30% 50%, rgba(217, 160, 102, 0.1), transparent 50%),
+                                radial-gradient(circle at 70% 50%, rgba(124, 198, 232, 0.1), transparent 50%);
+                    animation: rotateGradient 15s linear infinite;
+                    pointer-events: none;
+                    z-index: 0;
+                "></div>
+
+                <!-- Content -->
+                <div style="position: relative; z-index: 1;">
+                    <!-- Section Label -->
+                  
+
+                    <!-- Main Heading -->
+                    <h2 style="
+                        font-family: 'Futura', 'Century Gothic', 'Trebuchet MS', sans-serif;
+                        font-size: clamp(48px, 6vw, 72px);
+                        font-weight: 700;
+                        color: var(--text-heading);
+                        margin-bottom: 40px;
+                        letter-spacing: -2px;
+                    ">
+                        Let's Connect
+                    </h2>
+
+                    <!-- Icon -->
+                    
+
+                    <!-- Main Message -->
+                    <p style="
+                        font-size: 32px;
+                        color: var(--text-heading);
+                        margin-bottom: 24px;
+                        font-weight: 600;
+                        line-height: 1.5;
+                    ">
+                        Got an idea? Want a website?
+                    </p>
+                    
+                    <p style="
+                        font-size: 24px;
+                        color: var(--text-subheading);
+                        margin-bottom: 60px;
+                        line-height: 1.6;
+                    ">
+                        Hit me up <strong style="
+                            color: var(--accent-cyan);
+                            font-weight: 700;
+                            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-magenta));
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-clip: text;
+                        ">@tuhin.sarkar</strong> on Discord
+                    </p>
+
+                    <!-- Button -->
+                    <a href="contact.html" class="btn btn-primary" style="
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 12px;
+                        font-size: 20px;
+                        padding: 22px 55px;
+                        box-shadow: 0 15px 50px rgba(217, 160, 102, 0.4);
+                    ">
+                        Get in Touch
+                        <span style="font-size: 24px; transition: transform 0.3s ease;">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- Left Column: Nyan Cat + About -->
+            <div>
+                <!-- Nyan Cat -->
+                <div class="footer-nyan">
+                    <img src="images/nyancat.gif" alt="Nyan Cat">
+                </div>
+
+                <!-- About Section -->
+                <div class="footer-section footer-bio">
+                    <h3>Tuhin Sarkar</h3>
+                    <p>Designer, Developer & Creative Thinker based in Bengaluru. Crafting digital experiences that merge aesthetics with functionality. ✨ Currently available for freelance projects.</p>
+                </div>
+            </div>
+
+            <!-- Right Column: Connect -->
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/tuhinsarkar" title="LinkedIn" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://behance.net/tuhinsarkar" title="Behance" aria-label="Behance">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/tuhinsarkar" title="GitHub" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@tuhinsarkar" title="YouTube" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/tuhinsarkar" title="Instagram" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/tuhinsarkar" title="Twitter" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tuhin Sarkar. Made with <span class="heart">❤</span> in Bengaluru, India.</p>
+            <p class="footer-credits">Designed & Developed with meticulous attention to detail</p>
+        </div>
+    </footer>
+    <script>
+        // ========== MOBILE MENU TOGGLE ==========
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileNav = document.getElementById('mobileNav');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileMenuToggle.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        });
+
+        // Close mobile menu when clicking on a link
+        const navLinks = mobileNav.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileNav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // ========== RANDOM HERO ANIMATION ==========
+        function loadRandomHeroAnimation() {
+            const animationFiles = [
+                { src: 'animation/1.webp', type: 'image' },
+                { src: 'animation/2.webp', type: 'image' },
+                { src: 'animation/3.webp', type: 'image' },
+                { src: 'animation/4.webp', type: 'image' },
+                { src: 'animation/5.webp', type: 'image' },
+                { src: 'animation/6.gif', type: 'image' },
+                { src: 'animation/8.webp', type: 'image' },
+                { src: 'animation/9.webp', type: 'image' },
+                { src: 'animation/10.webp', type: 'image' },
+                { src: 'animation/11.webp', type: 'image' },
+                { src: 'animation/12.webp', type: 'image' },
+                { src: 'animation/13.webp', type: 'image' },
+                { src: 'animation/14.webp', type: 'image' },
+                { src: 'animation/15.webp', type: 'image' },
+                { src: 'animation/16.webp', type: 'image' },
+                { src: 'animation/17.webp', type: 'image' },
+                { src: 'animation/18.png', type: 'image' },
+                { src: 'animation/19.webp', type: 'image' },
+                { src: 'animation/20.webp', type: 'image' }
+            ];
+
+            // Select random animation
+            const randomIndex = Math.floor(Math.random() * animationFiles.length);
+            const selectedAnimation = animationFiles[randomIndex];
+            const heroAnimationContainer = document.getElementById('heroAnimation');
+
+            if (selectedAnimation.type === 'video') {
+                // Create video element for mp4
+                const video = document.createElement('video');
+                video.autoplay = true;
+                video.muted = true;
+                video.loop = true;
+                video.playsInline = true;
+                video.style.width = '100%';
+                video.style.height = '100%';
+                video.style.objectFit = 'cover';
+                video.style.objectPosition = 'center';
+                video.id = 'heroVideo'; // Add ID for easy access
+                
+                const source = document.createElement('source');
+                source.src = selectedAnimation.src;
+                source.type = 'video/mp4';
+                
+                video.appendChild(source);
+                heroAnimationContainer.appendChild(video);
+                
+                // Setup observer for this video after it's added
+                setupHeroVideoObserver(video);
+            } else {
+                // Create img element for webp/gif
+                const img = document.createElement('img');
+                img.src = selectedAnimation.src;
+                img.style.width = '100%';
+                img.style.height = '100%';
+                img.style.objectFit = 'cover';
+                img.style.objectPosition = 'center';
+                
+                heroAnimationContainer.appendChild(img);
+            }
+        }
+
+        // ========== HERO VIDEO PERFORMANCE OPTIMIZATION ==========
+        // Pause/play video based on visibility to save browser resources
+        function setupHeroVideoObserver(videoElement) {
+            const heroSection = document.querySelector('.hero');
+            
+            if (!heroSection || !videoElement) {
+                console.log('Hero section or video not found');
+                return;
+            }
+
+            const videoObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Hero is visible - play video
+                        console.log('Hero visible - playing video');
+                        videoElement.play().catch(err => {
+                            console.log('Video play failed:', err);
+                        });
+                    } else {
+                        // Hero is not visible - pause video to save resources
+                        console.log('Hero not visible - pausing video');
+                        videoElement.pause();
+                    }
+                });
+            }, {
+                // Trigger when at least 20% of the hero section is visible
+                threshold: 0.2,
+                // Start observing slightly before it enters viewport
+                rootMargin: '50px'
+            });
+
+            videoObserver.observe(heroSection);
+            console.log('Video observer setup complete');
+        }
+
+        // Load random animation when page loads
+        loadRandomHeroAnimation();
+
+        // ========== PARTICLE CANVAS ANIMATION ==========
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        let mouse = { x: 0, y: 0 };
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 0.5;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.color = `rgba(${Math.random() > 0.5 ? '217, 160, 102' : '124, 198, 232'}, ${Math.random() * 0.5 + 0.2})`;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                // Mouse interaction
+                const dx = mouse.x - this.x;
+                const dy = mouse.y - this.y;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+                if (distance < 100) {
+                    this.x -= dx / 50;
+                    this.y -= dy / 50;
+                }
+
+                if (this.x > canvas.width) this.x = 0;
+                if (this.x < 0) this.x = canvas.width;
+                if (this.y > canvas.height) this.y = 0;
+                if (this.y < 0) this.y = canvas.height;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            for (let i = 0; i < 100; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animateParticles);
+        }
+
+        initParticles();
+        animateParticles();
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
+
+        // ========== CURSOR GLOW EFFECT ==========
+        const cursorGlow = document.getElementById('cursorGlow');
+        let cursorX = 0, cursorY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            cursorX = e.clientX;
+            cursorY = e.clientY;
+        });
+
+        function animateCursor() {
+            cursorGlow.style.left = cursorX + 'px';
+            cursorGlow.style.top = cursorY + 'px';
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+
+        // ========== SCROLL REVEAL ANIMATIONS ==========
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-header, .about-text, .about-stats, .service-card, .project-card, .publication-card, .event-card-featured, .event-card-compact, .gallery-item').forEach(el => {
+            observer.observe(el);
+        });
+
+        // ========== HEADER SCROLL EFFECT ==========
+        const header = document.getElementById('header');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // ========== CUSTOM SMOOTH SCROLL WITH EASING ==========
+        function smoothScrollTo(target, duration = 1200) {
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            const startPosition = window.pageYOffset;
+            const distance = targetPosition - startPosition;
+            let startTime = null;
+
+            // Easing function for smooth animation
+            function easeInOutCubic(t) {
+                return t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+            }
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                const progress = Math.min(timeElapsed / duration, 1);
+                const ease = easeInOutCubic(progress);
+                
+                window.scrollTo(0, startPosition + distance * ease);
+                
+                if (timeElapsed < duration) {
+                    requestAnimationFrame(animation);
+                }
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                const target = document.querySelector(href);
+                
+                if (target) {
+                    smoothScrollTo(target, 1200);
+                    
+                    // Update URL without jumping
+                    if (href && href !== '#') {
+                        history.pushState(null, null, href);
+                    }
+                }
+            });
+        });
+
+        // ========== SMOOTH LIFT ON PROJECT CARDS ==========
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-8px)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+
+        // ========== SCROLL TO TOP BUTTON ==========
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+
+        // Show/hide scroll to top button based on scroll position
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 500) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+
+        // Smooth scroll to top when button is clicked
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // ========== ANIMATION TOGGLE FUNCTIONALITY ==========
+        const animationToggle = document.getElementById('animationToggle');
+        const animationToggleMobile = document.getElementById('animationToggleMobile');
+        const heroAnimation = document.getElementById('heroAnimation');
+        
+        // Check if user has a saved preference
+        const animationsDisabled = localStorage.getItem('animationsDisabled') === 'true';
+        
+        // Apply saved preference on page load
+        if (animationsDisabled) {
+            document.body.classList.add('animations-disabled');
+            if (animationToggle) animationToggle.classList.add('animations-disabled');
+            if (animationToggleMobile) animationToggleMobile.classList.add('animations-disabled');
+            pauseHeroAnimation();
+        }
+        
+        // Function to pause hero animation
+        function pauseHeroAnimation() {
+            // Pause video if it exists
+            const heroVideo = heroAnimation.querySelector('video');
+            if (heroVideo) {
+                heroVideo.pause();
+            }
+            // Keep the hero animation visible but static (don't hide it)
+            // The image/video stays as a static background
+            
+            // Hide animated background elements
+            const particleCanvas = document.getElementById('particle-canvas');
+            if (particleCanvas) {
+                particleCanvas.style.display = 'none';
+            }
+        }
+        
+        // Function to resume hero animation
+        function resumeHeroAnimation() {
+            // Play video if it exists
+            const heroVideo = heroAnimation.querySelector('video');
+            if (heroVideo) {
+                heroVideo.play().catch(err => console.log('Video play failed:', err));
+            }
+            // Background is already visible, just need to restart animations
+            
+            // Show animated background elements
+            const particleCanvas = document.getElementById('particle-canvas');
+            if (particleCanvas) {
+                particleCanvas.style.display = 'block';
+            }
+        }
+        
+        // Function to toggle animations
+        function toggleAnimations() {
+            const isDisabled = document.body.classList.toggle('animations-disabled');
+            
+            // Update both toggles
+            if (animationToggle) animationToggle.classList.toggle('animations-disabled');
+            if (animationToggleMobile) animationToggleMobile.classList.toggle('animations-disabled');
+            
+            if (isDisabled) {
+                localStorage.setItem('animationsDisabled', 'true');
+                pauseHeroAnimation();
+            } else {
+                localStorage.setItem('animationsDisabled', 'false');
+                resumeHeroAnimation();
+            }
+        }
+        
+        // Add click handlers to both toggles
+        if (animationToggle) {
+            animationToggle.addEventListener('click', toggleAnimations);
+        }
+        
+        if (animationToggleMobile) {
+            animationToggleMobile.addEventListener('click', toggleAnimations);
+        }
+    </script>
+
+    <!-- Performance Video Manager - Auto-pause video on low performance -->
+    <script src="performance-video-manager.js"></script>
+    
+    <!-- Animation Toggle Script (also manages localStorage across all pages) -->
+    <script src="animation-toggle.js"></script>
+</body>
+</html>

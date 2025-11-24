@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tuhinsarkar.com/sitemap.xml
+
+Crawl-delay: 1
+
+# Optional: Disallow crawling of internal-only files/folders
+# Disallow: /figma-package/
+# Disallow: /tksevidence.zip
+# Disallow: /test-hamburger.html
