@@ -1,0 +1,13 @@
+ICON PLACEHOLDER FILES NEEDED
+
+Replace these placeholder files with your actual icon images:
+
+1. youtube.png - YouTube icon
+2. github.png - GitHub icon
+3. linkedin.png - LinkedIn icon
+4. behance.png - Behance icon
+5. instagram.png - Instagram icon
+6. twitter.png - Twitter/X icon
+
+Until you add real icons, you'll see broken image icons on the page.
+This is expected - just drop in your PNG icon files here!

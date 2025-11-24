@@ -1,0 +1,7 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" rx="14" fill="#0F1115" />
+  <rect x="60" y="60" width="780" height="420" rx="8" fill="#172029" />
+  <text x="80" y="520" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="28">Publication Title</text>
+  <text x="80" y="560" fill="#9AA0A6" font-family="Inter, Arial, sans-serif" font-size="18">Author • 2025 • DOI</text>
+  <rect x="80" y="600" width="740" height="480" rx="8" fill="#0E1113" />
+</svg>
